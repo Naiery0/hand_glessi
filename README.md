@@ -3,7 +3,7 @@ chat gpt를 이용해 직접 쓴 이미지를 학습하게 끔 개조해보았�
 
 수정 전 원 py코드
 
-
+```
 import tensorflow as tf 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -118,3 +118,4 @@ wrong_result = []
 #test_labels
 predicted_labels[0]
 model.save('myhand_CNN_model.h5')
+```
